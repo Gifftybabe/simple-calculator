@@ -2,6 +2,8 @@
     max-width: 400px;
     margin: 10vh auto 0 auto;
     box-shadow: 0px 0px 43px 17px rgba(153,153,153);
+    margin-top: 0;
+    padding-bottom: 0;
 }
 
 #display {
@@ -41,4 +43,18 @@
     background-color: #323330;
     color: white;
     transition: 0.5s ease-in-out;
+}
+
+
+.hero-img {
+    background: url('./bg-img.jpg') !important;
+    background-size: cover !important;
+    background-position-x: 70% !important;
+    background-position-y: 70% !important;
+    width: 100% !important;
+    height: 150vh !important;
+    animation: introLoad 2s forwards !important;
+
+
+
 }
